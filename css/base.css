@@ -1,0 +1,39 @@
+html, body {
+    width: 100%;
+}
+
+#container {
+    width: 80%;
+    border: 1px solid red;
+    margin: auto;
+}
+
+#content {
+    width: 100%;
+    border: 1px solid black;
+    float: left;
+}
+
+#footer {
+    width: 100%;
+    border: 1px solid green;
+    float: left;
+}
+
+#header {
+    width: 100%;
+    border: 1px solid blue;
+    float: left
+}
+
+#icons {
+    width: 100%;
+    float: left;
+}
+
+#name  {
+    width: 100%;
+    float: left;
+}
+
+
