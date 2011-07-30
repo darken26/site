@@ -9,8 +9,11 @@
             });
    }
    
+    
+
    $.bindIconToolTips = function(){
         
    }
+   
 
 })(jQuery);
