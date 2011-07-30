@@ -87,4 +87,14 @@ html, body {
     padding-left: 20%;
 }
 
-
+.tooltip {
+    .tooltip {
+	display:none;
+	background:transparent url(../data/white_bg.png);
+	font-size:12px;
+	height:70px;
+	width:160px;
+	padding:25px;
+	color:#fff;	
+}
+}
