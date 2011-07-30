@@ -1,11 +1,27 @@
+@import url('http://fonts.googleapis.com/css?family=Ubuntu'); 
+
+html {
+    height: 100%;
+    background: #999; /* for non-css3 browsers */
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#cccccc'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ccc)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #fff,  #ccc); /* for firefox 3.6+ */ 
+}
+
 html, body {
+    font-family: Ubuntu;
     width: 100%;
+    float: left;
 }
 
 #container {
-    width: 80%;
+    width: 70%;
     border: 1px solid red;
     margin: auto;
+    background-color: white;
+    float: left;
+    margin-left: 15%;  /* This coincides with the width.  Must adjust by / 2. */
 }
 
 #content {
@@ -23,17 +39,38 @@ html, body {
 #header {
     width: 100%;
     border: 1px solid blue;
-    float: left
+    float: left;
 }
 
 #icons {
     width: 100%;
     float: left;
+    text-align: right;
+    padding-right: 15%;
+}
+
+.icon {
+    border: none;
+    width: 32px;
+    height: 32px;
+    float: left;
 }
 
 #name  {
     width: 100%;
+    font-size: 3em;
+    font-weight: bold;
     float: left;
+    padding-left: 10%;
+}
+
+#subtitle {
+    width: 100%;
+    font-size: 1em;
+    font-style: italic;
+    float: left;
+    color: gray;
+    padding-left: 20%;
 }
 
 
