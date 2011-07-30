@@ -21,7 +21,8 @@
                     <a href='#'><img class='icon' src='data/twitter_icon.png' alt='My Twitter Page' /></a>
                     <a href='#'><img class='icon' src='data/facebook_icon.png' alt='My FB Page' /></a>
                     <a href='#'><img class='icon' src='data/linkedin_icon.png' alt='My Linkedin Page' /></a>
-                    <a href='#'><img class='icon' src='data/github_icon.png' alt='My Github Page' /></a>
+                    <a href='#'><img class='icon iconpad' src='data/github_icon.png' alt='My Github Page' /></a>
+                    
                 </div>
             </div>
             <div id='content'>

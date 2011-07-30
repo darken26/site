@@ -17,7 +17,6 @@ html, body {
 
 #container {
     width: 70%;
-    border: 1px solid red;
     margin: auto;
     background-color: white;
     float: left;
@@ -26,7 +25,6 @@ html, body {
 
 #content {
     width: 100%;
-    border: 1px solid black;
     float: left;
 }
 
@@ -38,22 +36,29 @@ html, body {
 
 #header {
     width: 100%;
-    border: 1px solid blue;
     float: left;
+    border: 2px solid rgb(233, 233, 233);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
 }
 
 #icons {
     width: 100%;
     float: left;
     text-align: right;
-    padding-right: 15%;
 }
 
 .icon {
     border: none;
     width: 32px;
     height: 32px;
-    float: left;
+    padding: 0.5%;
+}
+
+.iconpad {
+    padding-right: 15%;
 }
 
 #name  {
