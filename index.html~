@@ -44,9 +44,9 @@
             - Programmer -
          </div>
          <div id='icons'> 
-         
-                <input id='twitter' type="image" class='icon' src='img/twitter_icon.png' alt='My Twitter Page' />
-            
+            <a id='twitter' href='http://twitter.com/#!/eudisduran' target='_blank'>
+                <img class='icon' src='img/twitter_icon.png' alt='My Twitter Page' />
+            </a>
             <a id='fb' href='http://www.facebook.com/profile.php?id=1427966590' target='_blank'>
                 <img class='icon' src='img/facebook_icon.png' alt='My FB Page' />
             </a>
@@ -59,7 +59,18 @@
          </div>
     </header>
     <div id="main" role="main">
-
+        <div id="left_panel">
+            <img id="profile_pic" src="http://profile.ak.fbcdn.net/hprofile-ak-snc4/275934_1427966590_1730686_n.jpg" alt="Profile Picture" /> 
+            <br />
+            <br />
+            <p>
+                <strong>About me</strong> <br /><br />
+                adfka;dfkladsj;faksdljfasd;klfjskfjad;kf
+            </p>
+        </div>
+        <div id="right_panel">
+            adfa
+        </div>
     </div>
     <footer>
 
