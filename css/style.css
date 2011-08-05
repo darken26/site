@@ -16,6 +16,7 @@
  * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
  * html5doctor.com/html-5-reset-stylesheet/
  */
+@import url('http://fonts.googleapis.com/css?family=Ubuntu');
 
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -169,8 +170,6 @@ a:hover { color: #036; }
  */
 
 
-@import url('http://fonts.googleapis.com/css?family=Ubuntu'); 
-
 html {
     height: 100%;
     background: #999; /* for non-css3 browsers */
@@ -199,14 +198,16 @@ html, body {
     -moz-border-radius-topright: 10px;
 }
 
-#content {
+#main {
     width: 100%;
+    margin-top: 2%;
+
+    margin-bottom: 2%;
     float: left;
 }
 
 footer {
     width: 100%;
-    border: 1px solid green;
     float: left;
 }
 
@@ -226,15 +227,22 @@ header {
 
 #icons {
     width: 100%;
-    float: left;
     text-align: right;
+    float: left;
+}
+
+#icons a {
+    float: left;
+}
+#twitter {
+    margin-left: 50%;
 }
 
 .icon {
     border: none;
     width: 44px;
     height: 44px;
-    padding: 0.5%;
+    padding: 5%;
 }
 
 .iconpad {
@@ -260,12 +268,12 @@ header {
 
 .tooltip {
 	display:none;
-	background:transparent url(../img/white_bg.png);
+	background:transparent url(../img/white.png);
 	font-size:12px;
-	height:70px;
-	width:160px;
+	height:52px;
+	width:152px;
 	padding:25px;
-	color:#fff;	
+	color:#000;	
 }
 
 

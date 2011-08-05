@@ -7,8 +7,6 @@ window.log = function(){
   arguments.callee = arguments.callee.caller;  
   if(this.console) console.log( Array.prototype.slice.call(arguments) );
 };
-// make it safe to use console.log always
-(function(b){function c(){}for(var d="assert,count,debug,dir,dirxml,error,exception,group,groupCollapsed,groupEnd,info,log,markTimeline,profile,profileEnd,time,timeEnd,trace,warn".split(","),a;a=d.pop();)b[a]=b[a]||c})(window.console=window.console||{});
 
 
 // place any jQuery/helper plugins in here, instead of separate, slower script files.
@@ -83,6 +81,7 @@ function Clock(el, opts) {
 
 
 (function($) {
+
    $.hoverEffect = function(elem) {
          $(elem)
         .live('mouseover.icons', function(e) {
@@ -99,15 +98,18 @@ function Clock(el, opts) {
         var fcontent = "Want to friend me on Facebook?  Go here!";
         var lcontent = "Add me to your network please!";
         var gcontent = "Check out my code here if you're interested";
+    
+        var toolConfig = { position: 'bottom, center'};
+
         $("#twitter").attr('title', tcontent);
         $("#fb").attr('title', fcontent);
         $("#linkedin").attr('title', lcontent);
         $("#github").attr('title', gcontent);
 
-        $("#twitter").tooltip();
-        $("#fb").tooltip();
-        $("#linkedin").tooltip();
-        $("#github").tooltip();
+        $("#twitter").tooltip(toolConfig);
+        $("#fb").tooltip(toolConfig);
+        $("#linkedin").tooltip(toolConfig);
+        $("#github").tooltip(toolConfig);
 
    }
    
