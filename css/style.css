@@ -244,6 +244,20 @@ header {
     float: left;
 }
 
+#right_panel > a, #right_panel > p {
+    padding-left: 10%;
+}
+
+#right_panel > a, #right_panel > a:link {
+    color: rgb(100, 100, 155);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#right_panel > a:hover {
+    color: rgb(120, 120, 200);
+}
+
 #profile_pic {
     padding-left: 10%;
     margin-top: 5%;

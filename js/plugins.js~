@@ -98,18 +98,26 @@ function Clock(el, opts) {
         var fcontent = "Want to friend me on Facebook?  Go here!";
         var lcontent = "Add me to your network please!";
         var gcontent = "Check out my code here if you're interested";
-    
+     
+        var resumeContent = "You mean serious business?  Check here!";
+        var blogContent = "Read my random ramblings.  Be warned, here be dragons!";
+
         var toolConfig = { position: 'bottom, center'};
 
         $("#twitter").attr('title', tcontent);
         $("#fb").attr('title', fcontent);
         $("#linkedin").attr('title', lcontent);
         $("#github").attr('title', gcontent);
+        $("#resume").attr('title', resumeContent);
+        $("#blog").attr('title', blogContent);
 
         $("#twitter").tooltip(toolConfig);
         $("#fb").tooltip(toolConfig);
         $("#linkedin").tooltip(toolConfig);
-        $("#github").tooltip();
+        $("#github").tooltip(toolConfig);
+
+        $("#resume").tooltip({position: 'center, right'});
+        $("#blog").tooltip({position: 'center, right'});
 
    }
    
