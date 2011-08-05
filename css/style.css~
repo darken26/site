@@ -235,6 +235,7 @@ header {
 
 #left_panel p {
     padding-left: 10%;
+    padding-right: 10%;
 
 }
 
@@ -255,7 +256,7 @@ header {
 }
 
 #right_panel > a:hover {
-    color: rgb(200, 200, 255);
+    color: rgb(120, 120, 200);
 }
 
 #profile_pic {
