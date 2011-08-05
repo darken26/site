@@ -203,9 +203,7 @@ html, body {
 #main {
     width: 100%;
     background-color: white;
-
     margin-bottom: 2%;
-
     height: 480px;
     float: left;
 }
@@ -229,19 +227,25 @@ header {
 }
 
 #left_panel {
-    width: 49%;
+    width: 48%;
     height: 480px;
     border-right: 1px solid rgb(230, 230, 255);
     float: left;
-    margin-left: 5%;
 }
+
+#left_panel p {
+    padding-left: 10%;
+
+}
+
 #right_panel {
-    width: 49%;
+    width: 48%;
     height: 480px;
     float: left;
 }
 
 #profile_pic {
+    padding-left: 10%;
     margin-top: 5%;
     width: 250px;
     height: 190px;

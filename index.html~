@@ -60,20 +60,31 @@
     </header>
     <div id="main" role="main">
         <div id="left_panel">
-            <img id="profile_pic" src="http://profile.ak.fbcdn.net/hprofile-ak-snc4/275934_1427966590_1730686_n.jpg" alt="Profile Picture" /> 
+            <img id="profile_pic" src="http://a3.sphotos.ak.fbcdn.net/hphotos-ak-snc6/263420_2155603816145_1427966590_32408888_5087090_n.jpg" alt="Profile Picture" /> 
             <br />
             <br />
             <p>
                 <strong>About me</strong> <br /><br />
-                adfka;dfkladsj;faksdljfasd;klfjskfjad;kf
+                Hello there, 
+                this is my personal website. &nbsp; Most of this information is public on
+                and can be easily found online.  &nbsp; I built this very simple site mostly to aggragate 
+                the sources I deemed imporant (see header links).
+
+                <br />
+                <br />
+                You can view my resume on the right, or visit my blog.  &nbsp;Thanks for
+                the visit!
             </p>
         </div>
         <div id="right_panel">
-            adfa
+            <br /><br /><br /><br /><br />
+            <a href="resume.html">My Resume</a>
+            <br /><br /><br />
+            <a href="http://eudisduran.com/wp">My Blog</a>
         </div>
     </div>
     <footer>
-
+        &copy; 2011 Eudis Duran
     </footer>
   </div> <!--! end of #container -->
 
