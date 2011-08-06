@@ -177,6 +177,7 @@ html {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeefff', endColorstr='#bbbccc'); /* for IE */
     background: -webkit-gradient(linear, left top, left bottom, from(#eef), to(#bbc)); /* for webkit browsers */
     background: -moz-linear-gradient(top,  #eef,  #bbc); /* for firefox 3.6+ */ 
+    background-repeat: no-repeat;
 }
 
 html, body {
