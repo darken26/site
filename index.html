@@ -101,8 +101,18 @@
 
   <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
   <!-- jQuery Library + ALL jQuery Tools -->
+  
+  <script src="https://www.google.com/jsapi?key=ABQIAAAATNEGxj5egkE904h722jBnhR3QcJKiJY_lH7di0uqNnjXspKR6hQbWcSTv0-dx3aqDxWpkn82ZUaM6g" type="text/javascript"></script>
+    
   <script src="http://cdn.jquerytools.org/1.2.5/full/jquery.tools.min.js"></script>
+
+  <script type="text/javascript">
+    jQuery.noConflict();
+    google.load("mootools", "1.2.1");
+  </script>
+
   <!-- scripts concatenated and minified via ant build script-->
+  <script src="js/LightFace/Source/LightFace.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/script.js"></script>
   <!-- end scripts-->
