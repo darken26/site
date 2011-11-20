@@ -1,5 +1,5 @@
 application: eudisd
-version: 1
+version: 2
 runtime: python
 api_version: 1
 
@@ -14,6 +14,6 @@ handlers:
 - url: /img
   static_dir: img
 
-- url: /.*
-  script: site.py
+- url: .*
+  script: main.py
 
