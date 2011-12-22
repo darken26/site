@@ -218,8 +218,10 @@ html, body {
 #right_col {
 	border-left: 1px solid rgb(200, 200, 255);
 	float: left;
-	width: 50%;
+	width: 47%;
 	height: 480px;
+	padding-left: 3%;
+	padding-top:3%;
 }
 
 footer {
@@ -267,6 +269,11 @@ header {
 .desc {
 	font-size: 10px;
 	padding-left: 10%;
+}
+
+.head{
+	font-size: 12px;
+	font-weight: bold;
 }
 
 #right_panel > a, #right_panel > p {
