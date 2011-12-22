@@ -169,6 +169,9 @@ a:hover { color: #036; }
  * Author: Eudis Duran
  */
 
+ a {
+	text-decoration: none;
+ }
 
 html {
     height: 100%;
@@ -224,6 +227,38 @@ html, body {
 	padding-top:3%;
 }
 
+.back {
+	float: left;
+	margin-left: 50%;
+}
+
+.position {
+	padding-top: 3%;
+	color: rgb(200,100,100);
+	margin-top: 5%;
+	padding: 2%;
+	border: 1px solid gray;
+	margin-right: 10%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.company {
+	font-size: 11px;
+	font-style: italic;
+	padding: 2%;
+	color: rgb(100,100,100);
+}
+
+.job_desc {
+	font-size: 11px;
+}
+
+.date {
+	font-size: 10px;
+	color: rgb(70,70,70);
+}
 footer {
     width: 100%;
     float: left;
