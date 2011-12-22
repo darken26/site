@@ -19,10 +19,20 @@ class MainPage(webapp.RequestHandler):
 
         self.response.out.write(template.render(path, {}))
 
+class ResumePage(webapp.RequestHandler):
+    def get(self):
+        self.response.headers['Content-Type'] = 'text/html'
+        path = os.path.join(os.path.dirname(__file__), 'resume.html')
+
+        self.response.out.write(template.render(path, {}))
 
 def main():
-    application = webapp.WSGIApplication([('/', MainPage),('/.*',
-        NoPageFound)], debug=False)
+    application = webapp.WSGIApplication([('/', MainPage),
+        ('/resume', ResumePage),
+        ('/.*', NoPageFound)
+        
+        ], 
+        debug=False) 
     run_wsgi_app(application)
 
 if __name__ == "__main__":
