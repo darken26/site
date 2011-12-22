@@ -40,12 +40,20 @@ class Page2Page(webapp.RequestHandler):
 
         self.response.out.write(template.render(path, {}))
 
+class FaceboxPage(webapp.RequestHandler):
+    def get(self):
+        self.response.headers['Content-Type'] = 'text/html'
+        path = os.path.join(os.path.dirname(__file__), 'templates/facebox.html')
+
+        self.response.out.write(template.render(path, {}))
+	
 		
 def main():
     application = webapp.WSGIApplication([('/', MainPage),
         ('/resume', ResumePage),
 		('/page1', Page1Page),
 		('/page2', Page2Page),
+		('/lib_desc', FaceboxPage),
         ('/.*', NoPageFound)
         ], 
         debug=False) 

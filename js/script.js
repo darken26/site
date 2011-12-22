@@ -4,6 +4,8 @@
 $(document).ready(function() {
    (function($) { 
 	 
+	  $("#lib_desc").facebox();
+	  
       $.bindIconToolTips();
     
       $.hoverEffect("#twitter");
