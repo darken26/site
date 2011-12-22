@@ -209,6 +209,19 @@ html, body {
     float: left;
 }
 
+#left_col {
+	float: left;
+	width: 37%;
+	padding: 3%;
+}
+
+#right_col {
+	border-left: 1px solid rgb(200, 200, 255);
+	float: left;
+	width: 50%;
+	height: 480px;
+}
+
 footer {
     width: 100%;
     float: left;
@@ -242,6 +255,18 @@ header {
     width: 48%;
     height: 480px;
     float: left;
+}
+
+.title {
+	font-weight: bold;
+	font-style: italic;
+	color: rgb(155,155,255);
+	font-size: 11px;
+}
+
+.desc {
+	font-size: 10px;
+	padding-left: 10%;
 }
 
 #right_panel > a, #right_panel > p {
