@@ -203,6 +203,12 @@ html, body {
     box-shadow: 5px 0px 5px #ccc;
 }
 
+#contact_info {
+    width: 100%;
+    float: left;
+}
+
+
 #main {
     width: 100%;
     background-color: white;
